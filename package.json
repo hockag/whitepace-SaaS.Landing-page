@@ -1,0 +1,24 @@
+{
+  "name": "whitepace-saas.landing-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hockag/whitepace-SaaS.Landing-page.git"
+  },
+  "keywords": [],
+  "author": "Rostyslav Petrushka <rospetrushka@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hockag/whitepace-SaaS.Landing-page/issues"
+  },
+  "homepage": "https://github.com/hockag/whitepace-SaaS.Landing-page#readme",
+  "description": "",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
