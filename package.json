@@ -1,10 +1,12 @@
 {
   "name": "whitepace-saas.landing-page",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "live-server"
+    "dev": "parcel src/index.html",
+    "watch": "parcel watch",
+    "build": "parcel build",
+    "sass": "sass src/scss/main.scss css/main.css --watch"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   "homepage": "https://github.com/hockag/whitepace-SaaS.Landing-page#readme",
   "description": "",
   "devDependencies": {
-    "live-server": "^1.2.2"
+    "parcel": "^2.15.4",
+    "sass": "^1.89.2"
   }
 }
